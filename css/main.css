@@ -3345,7 +3345,7 @@ figure figcaption {
   transform: translateY(100px);
 }
 .card-id:hover .face.face1 {
-  background: #293347;
+  background: rgb(252, 105, 7);
   transform: translateY(0);
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
