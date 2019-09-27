@@ -640,7 +640,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 12px;
   /* box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8; */
 }
