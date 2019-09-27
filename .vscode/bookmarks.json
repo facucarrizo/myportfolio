@@ -1,40 +1,5 @@
 [
 	{
-		"path": "$ROOTPATH$/index.html",
-		"bookmarks": [
-			{
-				"line": 132,
-				"column": 26,
-				"label": ""
-			},
-			{
-				"line": 137,
-				"column": 25,
-				"label": ""
-			},
-			{
-				"line": 160,
-				"column": 21,
-				"label": ""
-			},
-			{
-				"line": 164,
-				"column": 14,
-				"label": ""
-			},
-			{
-				"line": 182,
-				"column": 18,
-				"label": ""
-			},
-			{
-				"line": 187,
-				"column": 13,
-				"label": ""
-			}
-		]
-	},
-	{
 		"path": "$ROOTPATH$/css/main.css",
 		"bookmarks": [
 			{
@@ -50,7 +15,7 @@
 		]
 	},
 	{
-		"path": "$ROOTPATH$\\css\\main.css",
+		"path": "/Users/Facundo/OneDrive/myportfolio\\css\\main.css",
 		"bookmarks": [
 			{
 				"line": 2261,
@@ -65,10 +30,10 @@
 		]
 	},
 	{
-		"path": "$ROOTPATH$\\index.html",
+		"path": "/Users/Facundo/OneDrive/myportfolio\\index.html",
 		"bookmarks": [
 			{
-				"line": 235,
+				"line": 233,
 				"column": 2,
 				"label": ""
 			}
