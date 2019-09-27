@@ -146,7 +146,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  color: #8b43ff;
+  color: #3c408f;
   line-height: 1.25em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -1948,8 +1948,37 @@ h6 {
   position: relative;
 }
 
+/* .header-wrap:hover {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  margin: 0px auto;
+  width: 70%;
+
+  z-index: 10;
+
+
+
+  .imkt-sticky.stuck {
+    position: fixed;
+    z-index: 10;
+}
+
+imkt-navbar__main-section {
+    background-color: #FFF;
+    box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+.global-nav-bitbucket.imkt-navbar:not(.stuck) .imkt-navbar__main-section {
+    height: 70px;
+}
+.imkt-navbar__default .imkt-navbar__main-section {
+    height: 60px;
+    overflow: visible;
+}
+} */
+
 .header-top {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 @media (max-width: 767px) {
@@ -2027,7 +2056,7 @@ nav a:hover {
 }
 
 body {
-  background: #fff;
+  background: #fbfbfb;
 }
 
 .main-wrapper-first {
@@ -2144,8 +2173,14 @@ body {
 }
 
 .main-wrapper-first {
-  background: #fff;
-  width: auto;
+  background: #fbfbfb;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.haceleSombra {
+  overflow: visible;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
 
 .banner-content {
@@ -2181,12 +2216,12 @@ body {
 }
 
 .banner-area {
-  background: #fff;
+  background: #fbfbfb;
 }
 
 .featured-area {
   padding: 8rem;
-  background-color: #b0dfe5;
+  background-color: #c4d0f5;
   /* background-color:  #ccd0fd;
   background-color: #cfe3f5; */
 }
@@ -2726,7 +2761,7 @@ body {
 .containero {
   margin: 0px auto;
   width: 70%;
-  padding: 1.2rem 0;
+  /* padding: 1.2rem 0; */
 }
 .hh2 {
   font-weight: 600 !important;
@@ -2734,22 +2769,24 @@ body {
   font-size: 1.5rem !important;
   margin-bottom: 1.5rem;
   margin-top: 1em;
-  color: #293347;
+  color: #3c408f;
 }
 /* .hh3{
   display: inline-block
 } */
 .has-text-weight-normal {
+  font-family: "Roboto", serif;
+  font-kerning: normal;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 300 !important;
-  color: black;
+  font-weight: 400 !important;
+  color: #5d5d5d;
 }
 .has-text-centered {
   text-align: center !important;
 }
 code {
-  color: #293347;
+  color: #3c408f;
   background: -webkit-gradient(
     linear,
     left top,
@@ -2799,8 +2836,8 @@ p a:hover {
 
 .socialnet:hover {
   background-color: #3c408f;
-  color: #b0dfe5 !important;
-  border: 2px solid #b0dfe5;
+  color: #c3d0f5 !important;
+  border: 2px solid #6e86ca;
 }
 
 .fa-facebook {
@@ -2834,7 +2871,7 @@ p a:hover {
   padding: 12px;
   /* padding: 0.5em 2em;
   padding: 1em 2em; */
-  border: 2px solid #8c43ff;
+  border: 2px solid #c3d0f5;
   color: #e9ecef;
   position: relative;
   z-index: 1;
@@ -2888,11 +2925,11 @@ p a:hover {
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 .button--winona::after {
-  color: #b0dfe5;
+  color: #c3d0f5;
 }
 .button--winona:hover {
-  border-color: #b0dfe5;
-  background-color: rgba(176, 223, 229, 0.14);
+  border-color: rgb(195, 208, 245);
+  background-color: rgba(195, 208, 245, 0.14);
 }
 .button--winona.button--inverted:hover {
   border-color: #21333c;
@@ -3276,9 +3313,9 @@ figure figcaption {
   background-color: #f8fafd;
 }
 .white-bg1 {
-  background-color: #f8fafd;
+  background-color: #f4f5f7;
   padding: 100px 0;
-  border-bottom: 1px solid #e6e8e9;
+  /* border-bottom: 1px solid #e6e8e9; */
 }
 
 .main-wrapper-first2 {
@@ -3314,7 +3351,7 @@ figure figcaption {
   flex-wrap: wrap;
 }
 .card-id {
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0.75rem;
   /* width: 32.5%; */
   position: relative;
@@ -3326,6 +3363,7 @@ figure figcaption {
   background-clip: border-box;
   /* border: 1px solid rgba(0, 0, 0, 0.125); */
   border-radius: 0.25rem;
+  cursor: pointer;
 }
 
 .card-id .face {
@@ -3337,28 +3375,60 @@ figure figcaption {
   border-radius: 12px;
   height: 240px;
   position: relative;
-  background: #333;
+  background: #3c4f82;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
   transform: translateY(100px);
+  -webkit-box-shadow: 6px 9px 24px -10px rgba(195, 208, 245, 0.93);
+  -moz-box-shadow: 6px 9px 24px -10px rgba(195, 208, 245, 0.93);
+  box-shadow: 6px 9px 24px -10px rgba(195, 208, 245, 0.93);
 }
 .card-id:hover .face.face1 {
-  background: rgb(197, 8, 204);
+  background: url(../img/qvo2.png) no-repeat center;
+  background-size: cover;
+  /* background: #c3d0f5; */
   transform: translateY(0);
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+/* !imagenes card id*/
+
+.card-id:hover .face.face1.quvoimg {
+  background: url(../img/qvo2.png) no-repeat center;
+  background-size: cover;
+}
+.card-id:hover .face.face1.reformaimg {
+  background: url(../img/reforma2.png) no-repeat center;
+  background-size: cover;
+}
+.card-id:hover .face.face1.gde2 {
+  background: url(../img/gdi2.png) no-repeat center;
+  background-size: cover;
+}
+.card-id:hover .face.face1.senado2 {
+  background: url(../img/senado2.png) no-repeat center;
+  background-size: cover;
+}
+.card-id:hover .face.face1.legi2 {
+  background: url(../img/legilativa2.png) no-repeat center;
+  background-size: cover;
+}
+.card-id:hover .face.face1.biblio2 {
+  background: url(../img/biblio2.png) no-repeat center;
+  background-size: cover;
+}
 .card-id .face.face1 .content {
-  opacity: 0.2;
-  transition: 0.5s;
+  /* opacity: 0.2; */
+  transition: 0.1s;
+  max-width: 70%;
 }
 .card-id:hover .face.face1 .content {
-  opacity: 1;
+  opacity: 0;
 }
 .card-id .face.face1 .content img {
-  max-width: 100px;
+  max-width: 100%;
 }
 .card-id .face.face1 .content h3 {
   margin: 10px 0 0;
@@ -3376,7 +3446,11 @@ figure figcaption {
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: 0 20px 50px #777777;
+  -webkit-box-shadow: 6px 9px 24px -10px rgba(195, 208, 245, 0.93);
+  -moz-box-shadow: 6px 9px 24px -10px rgba(195, 208, 245, 0.93);
+  box-shadow: 6px 9px 24px -10px rgba(195, 208, 245, 0.93);
+  /* box-shadow: 0 20px 50px #777777; */
+  /* box-shadow: 0 30px 30px 0 rgba(#000, 0.175); */
   transform: translateY(-100px);
 }
 .card-id:hover .face.face2 {
@@ -3387,6 +3461,11 @@ figure figcaption {
 .card-id .face.face2 .content p {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-kerning: normal;
+  font-size: 0.9rem;
+  color: #5d5d5d;
 }
 .card-id .face.face2 .content a {
   margin: 15px 0 0;
