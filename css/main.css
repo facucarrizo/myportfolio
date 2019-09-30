@@ -2326,6 +2326,11 @@ body {
 
 .special-offer-area p {
   margin-top: 1rem;
+  color: #5c666d !important;
+  font-family: "Open Sans", sans-serif, Tahoma;
+  font-size: 15px;
+  line-height: 1.45em;
+  font-weight: 400;
 }
 
 .offer-left {
