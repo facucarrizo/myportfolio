@@ -896,9 +896,10 @@ h6 {
 }
 
 .genric-btn {
+  margin: 7px 0;
   display: inline-block;
   outline: none;
-  line-height: 40px;
+  line-height: 35px;
   padding: 0 30px;
   font-size: 1em;
   text-align: center;
@@ -909,6 +910,10 @@ h6 {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.etiquet {
+  margin-top: 15px;
 }
 
 .genric-btn:focus {
@@ -1123,7 +1128,7 @@ h6 {
 
 .genric-btn.disable {
   color: #222222, 0.3;
-  background: #f9f9ff;
+  background: #c4d0f5;
   border: 1px solid transparent;
   cursor: not-allowed;
 }
@@ -2601,8 +2606,8 @@ body {
 .titlefac {
   font-family: "eurostile", sans-serif;
   color: #3c408f;
-  font-size: 2rem;
-  font-weight: 800;
+  font-size: 2.3rem;
+  font-weight: 700;
   line-height: 1.125;
   margin-bottom: 1.5rem;
   line-height: 1.125;
