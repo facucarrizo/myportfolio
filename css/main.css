@@ -73,7 +73,7 @@ a {
 
 a:hover {
   background: #8c43ff;
-  color: #fff !important;
+  color: #8c43ff !important;
 }
 .text-uppercase:hover {
   background: #8c43ff7a;
@@ -103,7 +103,7 @@ a:focus,
 a:hover {
   text-decoration: none;
   outline: 0;
-  color: #8c43ff;
+  color: #3c408f;
   background-color: transparent;
 }
 
@@ -905,7 +905,7 @@ h6 {
   text-align: center;
   text-decoration: none;
   font-weight: 500;
-  cursor: pointer;
+  cursor: pointer !important;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2099,7 +2099,7 @@ h3.mb-30:after {
   bottom: 0;
   left: 0;
   width: 28px;
-  height: 3px;
+  height: 4px;
   border-radius: 5px;
   background: #ab9afe;
 }
