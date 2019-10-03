@@ -2368,11 +2368,11 @@ h3.mb-30:after {
   font-family: "Roboto", serif;
   font-kerning: normal;
   font-size: 16px;
-  /* line-height: 28px; */
+  line-height: 28px;
   font-weight: 400 !important;
   color: #42526e;
 
-  line-height: 1.45em;
+  /* line-height: 1.45em; */
 }
 
 .offer-left {
