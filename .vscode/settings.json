@@ -4,5 +4,6 @@
     "editor.fontSize": 16,
     "editor.formatOnPaste": true,
     "workbench.colorTheme": "Night Owl",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "editor.wordWrap": "on"
 }
