@@ -2217,6 +2217,8 @@ h3.mb-30:after {
 .banner-content {
   position: relative;
   color: #fff;
+  margin-top: 74px;
+  margin-right: 63px;
 }
 
 .banner-content h1 {
@@ -2690,7 +2692,7 @@ h3.mb-30:after {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px;
+  margin-left: 0px;
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
@@ -3407,6 +3409,8 @@ figure figcaption {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -27px;
 }
 .card-id {
   margin: 0px 0px 0px 0px;
@@ -3538,3 +3542,26 @@ figure figcaption {
   background: #333;
   color: #fff;
 }
+
+/* ------------------------- */
+
+.mx-auto {
+  margin-right: -16px !important;
+  margin-top: 0px;
+  margin-bottom: -60px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: -13px;
+}
+/* .logo {
+  margin-left: 20px;
+}
+.row {
+  margin-left: 0px;
+}
+
+.img-fluid {
+  width: 126px;
+} */
