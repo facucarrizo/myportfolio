@@ -2014,7 +2014,9 @@ imkt-navbar__main-section {
 .main-menubar {
   position: relative;
 }
-
+#nav {
+  width: 100%;
+}
 nav {
   height: 40px;
   border-radius: 5px;
@@ -2117,7 +2119,7 @@ h3.mb-30:after {
 
 .main-wrapper {
   width: 68.75%;
-  margin: 0px 189px auto;
+  margin: 0px auto;
 }
 
 @media (min-width: 1200px) {
