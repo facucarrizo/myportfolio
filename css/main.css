@@ -2596,6 +2596,25 @@ h3.mb-30:after {
     top: 110px;
   }
 }
+@media (max-width: 576px) {
+  .startproject {
+    margin: 10px auto;
+  }
+  .boxi{
+    padding: 26px 0px 0px 11px;
+    height: 270px;
+  }
+.featured-area {
+    padding: 1rem;
+  
+}
+.columcentered {
+  margin-left: 1.25rem;
+}
+.button {
+   float: initial;
+
+}
 
 .footer-area {
   /* background: url(../img/f-bg.jpg);
