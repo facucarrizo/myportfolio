@@ -2600,22 +2600,24 @@ h3.mb-30:after {
   .startproject {
     margin: 10px auto;
   }
-  .boxi{
+  .boxi {
     padding: 26px 0px 0px 11px;
     height: 270px;
   }
-.featured-area {
+  .featured-area {
     padding: 1rem;
-  
+  }
+  .columcentered {
+    margin-left: 1.25rem;
+  }
+  .button {
+    float: initial;
+  }
+  nav {
+    height: initial;
+    width: max-content;
+  }
 }
-.columcentered {
-  margin-left: 1.25rem;
-}
-.button {
-   float: initial;
-
-}
-
 .footer-area {
   /* background: url(../img/f-bg.jpg);
   background-size: cover; */
@@ -3548,30 +3550,25 @@ figure figcaption {
   transform: translateY(0);
 }
 .card-id .face.face2 .content p {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", serif;
-    font-weight: 500 !important;
-    font-kerning: normal;
-    font-size: 1rem;
-    color: #3c4f82;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+  font-weight: 500 !important;
+  font-kerning: normal;
+  font-size: 1rem;
+  color: #3c4f82;
 }
-
-
 
 .card-id .face.face2 .content a {
-    margin: 15px 0 0;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #3c4f82 !important;
-    padding: 5px;
-    border: 1px solid #3c4f82;
-    border-radius: 5px;
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #3c4f82 !important;
+  padding: 5px;
+  border: 1px solid #3c4f82;
+  border-radius: 5px;
 }
-
-
-
 
 .card-id .face.face2 .content a:hover {
   background: #c3d0f5;
@@ -3597,7 +3594,7 @@ figure figcaption {
   border-bottom: 5px solid blue;
 }
 
-.boldie{
-  color:#ab9afe;;
+.boldie {
+  color: #ab9afe;
   font-weight: bold;
 }
