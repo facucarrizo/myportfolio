@@ -2596,35 +2596,7 @@ h3.mb-30:after {
     top: 110px;
   }
 }
-@media (max-width: 576px) {
-  .startproject {
-    margin: 10px auto;
-  }
-  .boxi {
-    padding: 26px 0px 0px 11px !important;
-    height: 270px !important;
-  }
-  .featured-area {
-    padding: 1rem;
-  }
-  .columcentered {
-    margin-left: 1.25rem;
-  }
-  .button {
-    float: initial !important;
-  }
-  nav {
-    height: initial;
-    width: max-content;
-  }
-  .footer-area .footer-social a {
-    padding: 0px;
-  }
-  .footer-area .footer-social {
-    width: max-content;
-    /* margin-top: 30px; */
-  }
-}
+
 .footer-area {
   /* background: url(../img/f-bg.jpg);
   background-size: cover; */
@@ -3604,4 +3576,33 @@ figure figcaption {
 .boldie {
   color: #ab9afe;
   font-weight: bold;
+}
+@media (max-width: 576px) {
+  .startproject {
+    margin: 10px auto;
+  }
+  .boxi {
+    padding: 26px 0px 0px 11px !important;
+    height: 270px !important;
+  }
+  .featured-area {
+    padding: 1rem;
+  }
+  .columcentered {
+    margin-left: 1.25rem;
+  }
+  .button {
+    float: initial !important;
+  }
+  nav {
+    height: initial;
+    width: max-content;
+  }
+  .footer-area .footer-social a {
+    padding: 0px;
+  }
+  .footer-area .footer-social {
+    width: max-content;
+    /* margin-top: 30px; */
+  }
 }
