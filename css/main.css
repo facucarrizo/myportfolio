@@ -2601,8 +2601,8 @@ h3.mb-30:after {
     margin: 10px auto;
   }
   .boxi {
-    padding: 26px 0px 0px 11px;
-    height: 270px;
+    padding: 26px 0px 0px 11px !important;
+    height: 270px !important;
   }
   .featured-area {
     padding: 1rem;
@@ -2611,11 +2611,18 @@ h3.mb-30:after {
     margin-left: 1.25rem;
   }
   .button {
-    float: initial;
+    float: initial !important;
   }
   nav {
     height: initial;
     width: max-content;
+  }
+  .footer-area .footer-social a {
+    padding: 0px;
+  }
+  .footer-area .footer-social {
+    width: max-content;
+    /* margin-top: 30px; */
   }
 }
 .footer-area {
