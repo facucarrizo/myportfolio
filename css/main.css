@@ -82,10 +82,11 @@ a:hover {
   padding: 5px;
 }
 .navmenu:hover {
-  background: #8c43ff7a;
-  border-radius: 4px;
-  color: #3b408f !important;
-  padding: 1px 5px 1px 5px;
+    border-bottom: #8c43ff7a 3px solid;
+    /* background: #8c43ff7a; */
+    /* border-radius: 4px; */
+    color: #3b408f !important;
+    /* padding: 1px 5px 1px 5px; */
 }
 a,
 .buttonisrounded {
@@ -1956,34 +1957,7 @@ h6 {
   position: relative;
 }
 
-/* .header-wrap:hover {
-  background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
-  margin: 0px auto;
-  width: 70%;
 
-  z-index: 10;
-
-
-
-  .imkt-sticky.stuck {
-    position: fixed;
-    z-index: 10;
-}
-
-imkt-navbar__main-section {
-    background-color: #FFF;
-    box-shadow: 0 2px 10px rgba(0,0,0,.25);
-}
-
-.global-nav-bitbucket.imkt-navbar:not(.stuck) .imkt-navbar__main-section {
-    height: 70px;
-}
-.imkt-navbar__default .imkt-navbar__main-section {
-    height: 60px;
-    overflow: visible;
-}
-} */
 
 .header-top {
   padding: 20px 0;
@@ -2020,7 +1994,7 @@ imkt-navbar__main-section {
 nav {
   height: 40px;
   border-radius: 5px;
-  background: #f4f5f7;
+  
   padding-top: 9px;
   margin-right: 70px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2031,17 +2005,24 @@ nav {
 }
 /* ----------------------------------------------------------------- */
 
-@media (max-width: 767px) {
-  nav {
-    margin-right: 0;
-    position: absolute;
-    right: 0;
-    top: 47px;
-    text-align: right;
-    padding: 20px 0;
-    z-index: 5;
-    background: #fff;
+
+
+.navbar {
+    width: 100%;
   }
+
+.navbar-toggler {
+   
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    /* background: #d20c0cc9; */
+    border: 2px solid;
+    border-radius: 0.25rem;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(108, 99, 255) !important;
+    border-color: rgb(108, 99, 255);
 }
 
 nav.hide {
@@ -2271,7 +2252,7 @@ h3.mb-30:after {
     margin-top: 30px;
   }
   .banner-content h1 {
-    font-size: 20px;
+    font-size: 2.3rem;
   }
 }
 
@@ -2804,28 +2785,7 @@ h3.mb-30:after {
   margin: 0px;
   color: white;
 }
-/* .buttonisrounded {
-  color: #fff;
-  padding: 0.5em 2em;
-  font-weight: 400;
-  background-color: transparent;
-  border-radius: 290486px;
-  font-size: 1.25rem;
-  font-family: 'europa', sans-serif;
-  cursor: pointer;
-  justify-content: center;
-  text-align: center;
-  white-space: nowrap;
-  border: 2px solid #8c43ff;
-  height: 2.25em;
-  position: relative;
-  vertical-align: top;
-  letter-spacing: 2px;
-} */
-/* .buttonisrounded:hover {
-  background: #afdfe5;
-  color: #afdfe5 !important;
-} */
+
 .containero {
   margin: 0px auto;
   width: 80%;
@@ -2871,21 +2831,7 @@ code {
   margin: 7.5rem auto 0.9375rem auto;
   padding: 0 1.25rem;
 }
-/* code {
-    font-size: 0.85rem;
-    line-height: 1.58rem;
-} */
-/* SUBRAYADO INSET PARA P <a href="http://www.nmtype.com/movement">Movement</a>
 
-h2>a, h3>a, li a, p a {
-    box-shadow: inset 0 -0.5em 0 #95e8ed;
-    -webkit-transition: box-shadow .2s ease-in-out;
-    transition: box-shadow .2s ease-in-out;
-}
-
-p a:hover {
-    box-shadow: inset 0 -1.2em 0 #ed65e8;
-*/
 .socialnet {
   padding-left: 13px;
   background-color: transparent;
@@ -2898,8 +2844,7 @@ p a:hover {
   font-size: 1.18rem;
   justify-content: space-between;
   margin: 0 0.625rem;
-  /* height: 1.4em;
-  width: 1.4em; */
+  
 }
 
 .socialnet:hover {
@@ -2915,13 +2860,7 @@ p a:hover {
   padding: 30px 0;
   margin-bottom: 75px;
 }
-/* .socialnet:hover {
-  border-radius: 100%;
-} */
 
-/* .footer-area a:hover {
-    color: #000 !important;
-} */
 
 .button {
   color: #fff !important;
@@ -3566,17 +3505,68 @@ figure figcaption {
   margin: 0 auto;
 }
 
-#botmenu nav a {
-  border-bottom: none;
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #8c43ff;
 }
-#botmenu nav a:hover {
-  border-bottom: 5px solid blue;
-}
+/* ------------------------- */
+
+
 
 .boldie {
   color: #ab9afe;
   font-weight: bold;
 }
+
+/* -----------MEDIAQUERIES-------------- */
+
+
+@media (max-width: 767px) {
+  nav {
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 5;
+    background: #fff;
+  }
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+
+  .containero {
+    
+    width: 90%;
+  }
+     .mr-img{
+       margin-left: -40px;
+     }
+     .banner-content p {
+       text-align: center;
+     }
+     .banner-content h1 {
+    text-align: center;
+
+  }
+  .titlefac {
+    margin-top: 56px;
+    font-size: 2rem;
+  }
+  .flexus {
+    margin-left: -16px;
+
+  }
+}
+
 @media (max-width: 576px) {
   .startproject {
     margin: 10px auto;
