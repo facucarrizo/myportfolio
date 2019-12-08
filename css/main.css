@@ -3519,14 +3519,8 @@ figure figcaption {
   font-weight: bold;
 }
 
-.navbar-collapse {
-    background-color: #e6e6e6;
-}
 
-.navbar-toggler:focus, .navbar-toggler:hover {
-   
-    background-color: #e6e6e6;
-}
+
 /* -----------MEDIAQUERIES-------------- */
 
 
@@ -3550,6 +3544,14 @@ figure figcaption {
     justify-content: space-between;
     padding: 0;
     width: 100%;
+}
+.navbar-collapse {
+    background-color: #e6e6e6;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+   
+    background-color: #e6e6e6;
 }
 
   .containero {
