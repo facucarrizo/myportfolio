@@ -2030,8 +2030,8 @@ nav.hide {
 }
 
 nav a {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   text-transform: uppercase;
   color: #3c408f;
   margin: 0 25px;
@@ -3508,7 +3508,7 @@ figure figcaption {
 
 
 .navbar-light .navbar-nav .nav-link {
-    color: #8c43ff;
+    color: #3c408f;
 }
 /* ------------------------- */
 
@@ -3565,6 +3565,14 @@ figure figcaption {
     margin-left: -16px;
 
   }
+  .navmenu.active {
+    
+    background: #8b43ff64;
+    
+   
+}
+  
+
 }
 
 @media (max-width: 576px) {
