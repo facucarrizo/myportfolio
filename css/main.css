@@ -1966,6 +1966,7 @@ h6 {
 @media (max-width: 767px) {
   .header-top {
     padding: 15px 0;
+    background-color: white;
   }
 }
 
