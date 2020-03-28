@@ -2633,14 +2633,14 @@ h3.mb-30:after {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 	color: #3c408f;
-	/* font-family: "europa",sans-serif; */
+	font-family: 'menlo', sans-serif;
 	font-weight: 300;
 	line-height: 1.5 !important;
 	font-size: 1.25rem;
 }
 
 .titlefac {
-	font-family: 'eurostile', sans-serif;
+	font-family: 'menlo', sans-serif;
 	color: #3c408f;
 	font-size: 2.3rem;
 	font-weight: 700;
@@ -2725,7 +2725,9 @@ h3.mb-30:after {
 	border-right: 3px solid #8b43ff;
 }
 .recentwork {
-	text-align: center !important;
+	font-family: 'menlo', sans-serif !important;
+	font-family: 'eurostile', sans-serif;
+	text-align: left;
 	display: block;
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
@@ -2802,7 +2804,7 @@ h3.mb-30:after {
 }
 .hh2 {
 	font-weight: 600 !important;
-	font-family: 'eurostile', sans-serif;
+	font-family: 'menlo', sans-serif;
 	font-size: 1.5rem !important;
 	margin-bottom: 1.5rem;
 	margin-top: 1em;
