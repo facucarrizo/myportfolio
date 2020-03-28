@@ -2202,8 +2202,8 @@ h3.mb-30:after {
 .banner-content {
 	position: relative;
 	color: #fff;
-	margin-top: 74px;
-	margin-right: 63px;
+	margin-top: 30px;
+	margin-right: 40px;
 }
 
 .banner-content h1 {
@@ -2683,7 +2683,9 @@ h3.mb-30:after {
 	border-radius: 12px;
 	box-shadow: 0px 5px 24px -10px rgba(195, 208, 245, 0.93);
 }
-
+.bor-rad {
+	border-radius: 0px;
+}
 .colright {
 	border-radius: 0px 12px 12px 0px;
 }
