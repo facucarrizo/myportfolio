@@ -3410,7 +3410,7 @@ figure figcaption {
   box-shadow: 6px 9px 24px -10px rgba(195, 208, 245, 0.93);
 }
 .card-id:hover .face.face1 {
-  background: url(../img/qvo2.png) no-repeat center;
+  background: url(../img/cardimg/qvo2.webp) no-repeat center;
   background-size: cover;
   /* background: #c3d0f5; */
   transform: translateY(0);
@@ -3420,27 +3420,27 @@ figure figcaption {
 /* !imagenes card id*/
 
 .card-id:hover .face.face1.quvoimg {
-  background: url(../img/qvo2.png) no-repeat center;
+  background: url(../img/cardimg/qvo2.webp) no-repeat center;
   background-size: cover;
 }
 .card-id:hover .face.face1.reformaimg {
-  background: url(../img/reforma2.png) no-repeat center;
+  background: url(../img/cardimg/reforma2.webp) no-repeat center;
   background-size: cover;
 }
 .card-id:hover .face.face1.gde2 {
-  background: url(../img/gdi2.png) no-repeat center;
+  background: url(../img/cardimg/gdi2.webp) no-repeat center;
   background-size: cover;
 }
 .card-id:hover .face.face1.senado2 {
-  background: url(../img/senado2.png) no-repeat center;
+  background: url(../img/cardimg/senado2.webp) no-repeat center;
   background-size: cover;
 }
 .card-id:hover .face.face1.legi2 {
-  background: url(../img/legilativa2.png) no-repeat center;
+  background: url(../img/cardimg/legilativa2.webp) no-repeat center;
   background-size: cover;
 }
 .card-id:hover .face.face1.biblio2 {
-  background: url(../img/biblio2.png) no-repeat center;
+  background: url(../img/cardimg/biblio2.webp) no-repeat center;
   background-size: cover;
 }
 .card-id .face.face1 .content {
