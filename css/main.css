@@ -2190,6 +2190,7 @@ h3.mb-30:after {
 	z-index: 100;
 }
 .haceleSombra {
+	height: 61px;
 	overflow: visible;
 	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 1px 0 0 #e6ecf8;
 	top: 0;
@@ -2197,6 +2198,11 @@ h3.mb-30:after {
 	background: #ffffff;
 	position: sticky;
 	position: -webkit-sticky;
+}
+
+#logo-img {
+	margin-bottom: 12px;
+	transition: 0.5s;
 }
 
 .banner-content {
