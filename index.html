@@ -420,15 +420,17 @@
 				var scroll_pos = 0;
 				$(document).scroll(function() {
 					scroll_pos = $(this).scrollTop();
-					if (scroll_pos > 20) {
+					if (scroll_pos > 1) {
+						$("body").addClass('toppadding');
 						$('#nav').addClass('haceleSombra'); //*Transparente
 					} else {
-						$('#nav').removeClass('haceleSombra'); //*blanco
+						$('#nav').removeClass('haceleSombra');
+						$('body').removeClass('toppadding'); //*blanco
 					}
 				});
 			});
 		</script>
-		<script>
+		<!-- <script>
 			window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -438,6 +440,6 @@ function scrollFunction() {
     document.getElementById("logo-img").style.height = "50px";
   }
 }
-		</script>
+		</script> -->
 	</body>
 </html>

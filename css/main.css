@@ -2199,10 +2199,16 @@ h3.mb-30:after {
 	position: sticky;
 	position: -webkit-sticky;
 }
-
 #logo-img {
+	transition: 0.8s;
+}
+.haceleSombra #logo-img {
+	height: 30px;
 	margin-bottom: 12px;
-	transition: 0.5s;
+	transition: 0.8s;
+}
+.toppadding {
+	padding-top: 61px;
 }
 
 .banner-content {
