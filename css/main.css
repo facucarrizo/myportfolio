@@ -2200,7 +2200,8 @@ h3.mb-30:after {
 	position: -webkit-sticky;
 }
 #logo-img {
-	transition: 0.8s;
+	height: 50px;
+	transition: 300ms;
 }
 .haceleSombra #logo-img {
 	height: 30px;
