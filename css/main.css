@@ -2303,7 +2303,7 @@ h3.mb-30:after {
 
 .single-feature img {
 	border-radius: 2px;
-	/* height: 100%; */
+	height: 100%; 
 }
 
 .single-feature .desc {
@@ -2704,10 +2704,10 @@ h3.mb-30:after {
 	border-radius: 0px 12px 12px 0px;
 }
 .img-colum {
-	margin-block-start: -1em;
-	margin-block-end: 1em;
-	margin-inline-start: 40px;
-	margin-inline-end: 40px;
+	margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 10em;
+    margin-inline-end: 10em;
 	height: auto;
 	display: block;
 	position: relative;
