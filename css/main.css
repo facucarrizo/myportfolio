@@ -47,6 +47,7 @@ body {
 	position: relative;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	scrollbar-color: #c4d0f5 #6C63FF;
 }
 
 ol,
